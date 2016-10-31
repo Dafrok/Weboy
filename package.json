@@ -1,0 +1,27 @@
+{
+  "name": "weboy",
+  "version": "0.0.0",
+  "description": "RWD m.weibo.cn",
+  "main": "main.css",
+  "scripts": {
+    "compile": "stylus ./src/main.styl -o ./main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dafrok/Weboy.git"
+  },
+  "keywords": [
+    "weibo",
+    "mobile",
+    "css"
+  ],
+  "author": "Dafrok <o.o@mug.dog>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dafrok/Weboy/issues"
+  },
+  "homepage": "https://github.com/Dafrok/Weboy#readme",
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}

@@ -1,9 +1,8 @@
 @media(min-width: 801px)
   .contWrap
     padding-top 54px
-  .layout-box
-    display block
   .home-sub-nav
+    display block
     position fixed
     top 44px
     bottom 0
@@ -16,3 +15,20 @@
         background #ff8200
         &::before
           display none
+
+@media(min-width: 1001px)
+  .contWrap
+    padding 54px 10px 0 54px
+    width 100%
+    box-sizing border-box
+  [data-node=homeWrap]
+    column-count 2
+    .card
+      box-sizing border-box
+      display inline-block
+      width 100%
+
+
+@media(min-width: 1201px)
+  [data-node=homeWrap]
+    column-count 3

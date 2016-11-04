@@ -4,7 +4,8 @@
   "description": "RWD m.weibo.cn",
   "main": "main.css",
   "scripts": {
-    "compile": "stylus ./src/main.styl -o ./main.css"
+    "dev": "onchange './src/**' -- npm run build",
+    "build": "stylus ./src/main.styl -o ./main.css"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/Dafrok/Weboy#readme",
   "devDependencies": {
+    "onchange": "^3.0.2",
     "stylus": "^0.54.5"
   }
 }

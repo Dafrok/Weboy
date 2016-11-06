@@ -22,6 +22,7 @@
     width 100%
     box-sizing border-box
   [data-node=homeWrap]
+    width auto
     column-count 2
     .card
       box-sizing border-box
@@ -29,10 +30,21 @@
       width 100%
   .mod-pagination
     position fixed
-    top 0
+    left 0
+    bottom 0
+    width 44px
     z-index 10
-    right 150px
-    width 300px
+    display block
+    border-radius 0
+    border 0
+    .select-txt
+      display none
+    .plus
+      justify-content center
+    &.line-around
+      border 0
+      border-radius 0
+
 
 
 @media(min-width: 1201px)

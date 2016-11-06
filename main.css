@@ -44,13 +44,33 @@
     box-sizing: border-box;
   }
   [data-node=homeWrap] {
-    width: 100%;
+    width: auto;
     column-count: 2;
   }
   [data-node=homeWrap] .card {
     box-sizing: border-box;
     display: inline-block;
     width: 100%;
+  }
+  .mod-pagination {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 44px;
+    z-index: 10;
+    display: block;
+    border-radius: 0;
+    border: 0;
+  }
+  .mod-pagination .select-txt {
+    display: none;
+  }
+  .mod-pagination .plus {
+    justify-content: center;
+  }
+  .mod-pagination.line-around {
+    border: 0;
+    border-radius: 0;
   }
 }
 @media (min-width: 1201px) {

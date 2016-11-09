@@ -5,6 +5,11 @@
   }
 }
 @media (min-width: 601px) {
+  .card-list {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
   [data-node=homeWrap] {
     width: 600px;
     margin: 0 auto;
@@ -13,10 +18,9 @@
     border-radius: 5px;
     border: 1px solid #e6e6e6;
   }
-  .card-list {
-    border: 1px solid #e6e6e6;
-    border-radius: 5px;
-    overflow: hidden;
+  [data-node=homeWrap] .card-list {
+    border: 0;
+    border-radius: 0;
   }
 }
 @media (min-width: 801px) {
